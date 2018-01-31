@@ -1,0 +1,181 @@
+body,html
+{
+  overflow-x:hidden;
+}
+body 
+{
+	font-family: 'Raleway', sans-serif; 
+	overflow-x: hidden !important;
+}
+
+ul
+{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a
+{ 
+  text-decoration: none;
+  color: #2f2f2f;
+  
+}
+a:focus
+{
+  outline: none;
+  text-decoration: none;
+}
+h1,h2
+{
+	font-family: 'Raleway', sans-serif; 
+}
+h3,h4,h5,h6
+{
+	font-family: 'Raleway', sans-serif; 
+}
+
+img{
+ border:none;
+}
+
+
+.header 
+{
+	height:70px;
+	width:100%;
+	background-repeat: no-repeat;
+}
+
+.header img
+{
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+.tapzo_content
+{
+    width: 100%;
+    padding-top: 50px;
+	padding-bottom: 20px;
+    float: left;
+}
+.tapzo_content .col-xs-12
+{
+	padding:40px 0px;
+}
+.icon
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.icon img
+{
+    border: 1px solid #e5ad40;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+    background-color: #3b3939;
+}
+.icon:hover img
+{
+	background:#f0d74d;
+    border: 1px solid #000;
+	
+}
+.icon_text
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+	padding-top: 20px;
+}
+
+.icon_text h3
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 10px 0px;
+    font-weight: 700;
+}
+.icon_text span
+
+{
+    font-size: 16px;
+    color: #b0aaaa;
+}
+
+.icon_text img
+{
+    width: 100%;
+}
+
+.list_offer
+{
+	float:left;
+	width:100%;
+	text-align: center;
+	padding: 40px 0px;
+	background-color: #f0d74d;
+}
+.list_offer li
+{
+	list-style-image:url(icon_right.png);
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 2;
+	color: #6e1515;
+}
+.list_offer2
+{
+	float:left;
+	width:100%;
+	padding-top: 60px;
+}
+.list_offer2 .list_info
+{
+    float: left;
+    width: 100%;
+	padding-bottom: 20px;
+}
+.line_border 
+{
+    background-image: url(line.png);
+    float: left;
+    width: 100%;
+    height: 2px;
+    background-repeat: no-repeat;
+	margin: 10px 0px;
+}
+.list_offer2 .list_info img
+{
+    float: left;
+    padding-right: 20px;
+    height: 60px;
+}
+
+.list_info h3
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 10px 0px;
+    font-weight: 700;
+	cursor: pointer;
+	
+}
+
+.footer
+{
+	background-image: url(Default_D3_Benefits_06.jpg);
+	float: left;
+	width: 100%;
+	height: 70px;
+	background-size: 100% 100%;
+}
+
+
